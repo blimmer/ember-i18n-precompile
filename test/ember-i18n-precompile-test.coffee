@@ -1,5 +1,7 @@
 assert = require 'assert'
 grunt = require 'grunt'
+jquery = require 'jquery'
+
 emberI18nPrecompile = require '../lib/ember-i18n-precompile'
 
 describe 'createTemplate', ->
@@ -8,8 +10,7 @@ describe 'createTemplate', ->
     expected = grunt.file.read('test/expected/en.js')
 
     # Whitespace and newlines are annoying. These, really, are equivalent.
-    trimmedActual = emberI18nPrecompile.createTemplate(fixture).replace(/\ /g,'')
-    trimmedActual += '\n'
-    trimmedExpected = expected.replace(/\ /g,'')
+    trimmedActual = emberI18nPrecompile.createTemplate(fixture).trim().replace(/\ /g,'')
+    trimmedExpected = expected.trim().replace(/\ /g,'')
 
     assert.equal(trimmedExpected, trimmedActual)
