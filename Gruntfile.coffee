@@ -5,16 +5,16 @@ module.exports = (grunt) ->
     coffee:
       lib:
         files:
-          'lib/*.js': 'src/**/*.coffee'
+          'lib/ember-i18n-precompile.js': 'src/**/*.coffee'
 
     simplemocha:
       lib:
-        src: 'test/**/*_test.coffee'
+        src: 'test/**/*-test.coffee'
         options:
           globals: ['expect']
           timeout: 3000
           ui: 'bdd'
-          reporter: 'nyan'
+          reporter: 'spec'
 
     watch:
       files: [
