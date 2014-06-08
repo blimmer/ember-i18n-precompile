@@ -1,6 +1,6 @@
 {
   "name": "ember-i18n-precompile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple precompiler tasks for ember-i18n by jamesarosen",
   "main": "lib/ember-i18n-precompile.js",
   "scripts": {
