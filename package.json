@@ -1,0 +1,31 @@
+{
+  "name": "ember-i18n-precompile",
+  "version": "0.0.0",
+  "description": "Simple precompiler tasks for ember-i18n by jamesarosen",
+  "main": "lib/i18n-precompile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blimmer/ember-i18n-precompile.git"
+  },
+  "keywords": [
+    "ember",
+    "i18n",
+    "precompile",
+    "handlebars"
+  ],
+  "author": "Ben Limmer (http://benlimmer.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blimmer/ember-i18n-precompile/issues"
+  },
+  "homepage": "https://github.com/blimmer/ember-i18n-precompile",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-simple-mocha": "^0.4.0",
+    "grunt-simple-watch": "^0.1.2"
+  }
+}
