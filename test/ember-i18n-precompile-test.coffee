@@ -1,6 +1,5 @@
 assert = require 'assert'
 grunt = require 'grunt'
-jquery = require 'jquery'
 
 emberI18nPrecompile = require '../lib/ember-i18n-precompile'
 
