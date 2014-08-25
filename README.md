@@ -1,6 +1,9 @@
 ember-i18n-precompile
 =====================
 
+# NO LONGER MAINTAINED
+As of [ember-i18n v. 2.1.0](https://github.com/jamesarosen/ember-i18n/releases/tag/v2.1.0) there's a Handlebars-less compiler included with i18n. I'll likely opt for this instead of completing this project.
+
 Simple precompiler tasks for ember-i18n by jamesarosen
 
 # Background
